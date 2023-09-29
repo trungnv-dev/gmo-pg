@@ -1,7 +1,7 @@
 {
     "name": "gmo-ecs/gmo-pg",
     "description": "Core Gmo Payment Services",
-    "keywords": ["laravel", "gmo-pg"],
+    "keywords": ["gmo", "ecs", "laravel", "php", "gmo-pg"],
     "type": "library",
     "license": "MIT",
     "authors": [
