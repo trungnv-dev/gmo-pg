@@ -10,11 +10,11 @@
             "email": "trungnv@runsystem.net"
         }
     ],
-    "require-dev": {
+    "require": {
         "php": "^7.3|^8.0",
         "guzzlehttp/guzzle": "^7.2"
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "Ecs\\GmoPG\\": "src/"
         }
