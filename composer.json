@@ -23,7 +23,10 @@
         "laravel": {
             "providers": [
                 "Ecs\\GmoPG\\Providers\\GmoPGServiceProvider"
-            ]
+            ],
+            "options": {
+                "payment_type": "credit_card"
+            }
         }
     }
 }
