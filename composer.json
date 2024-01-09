@@ -19,6 +19,11 @@
             "Ecs\\GmoPG\\": "src/"
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "php composer-scripts.php post-install"
+        ]
+    },
     "extra": {
         "laravel": {
             "providers": [
