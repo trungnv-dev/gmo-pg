@@ -19,19 +19,11 @@
             "Ecs\\GmoPG\\": "src/"
         }
     },
-    "scripts": {
-        "post-install-cmd": [
-            "php composer-scripts.php post-install"
-        ]
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "Ecs\\GmoPG\\Providers\\GmoPGServiceProvider"
-            ],
-            "options": {
-                "payment_type": "credit_card"
-            }
+            ]
         }
     }
 }
